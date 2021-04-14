@@ -12,5 +12,9 @@ public class CalculadoraTeste {
         double result = calc.divideDoisNumeros(5.5, 10);
         System.out.println(result);
         // System.out.println(calc.divideDoisNumeros(5.5, 10));
+
+        int[] numeros = new int[]{1,2,3,4,5};
+        calc.somaArray(numeros);
+        calc.somaVarArgs(1,2,3,4,5,6);
     }
 }
